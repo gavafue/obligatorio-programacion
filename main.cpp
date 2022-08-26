@@ -6,10 +6,10 @@ int main()
     matriz A, K;
     int i, j, m, f, c, x, y, casoSwitch;
     m = f = c = x = y = 0;
-    printf("Cargaremos una matriz de orden 4x4\n");
-    for (j = 0; j < 4; j++)
+    printf("Cargaremos una matriz de orden %dx%d\n", N, N);
+    for (j = 0; j < N; j++)
     {
-        for (i = 0; i < 4; i++)
+        for (i = 0; i < N; i++)
         {
             printf("Ingresa el valor A[%d][%d]:\n", j + 1, i + 1);
             scanf("%d", &A[j][i]);
@@ -58,9 +58,9 @@ int main()
             break;
         case 4:
             printf("Para mostrar la operacion COPIAR, utilizaremos la matriz auxiliar K:\n");
-            for (x = 0; x < 4; x++)
+            for (x = 0; x < N; x++)
             {
-                for (y = 0; y < 4; y++)
+                for (y = 0; y < N; y++)
                 {
                     printf("Ingresa el valor K[%d][%d]:\n", x + 1, y + 1);
                     scanf("%d", &K[x][y]);

@@ -6,8 +6,8 @@
 #include <conio.h>
 using namespace std;
 
-
-typedef int matriz[4][4];
+const int N = 6;
+typedef int matriz[N][N];
 typedef int arreglo[16];
 //Funciones auxiliares
 void copiar(matriz A, matriz B);

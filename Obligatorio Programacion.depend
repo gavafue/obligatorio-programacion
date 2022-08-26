@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1661533699 source:c:\users\52084450\desktop\obligatorio programacion\main.cpp
+	"matrices.h"
+
+1661533767 c:\users\52084450\desktop\obligatorio programacion\matrices.h
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1661533732 source:c:\users\52084450\desktop\obligatorio programacion\matrices.cpp
+	"matrices.h"
+
